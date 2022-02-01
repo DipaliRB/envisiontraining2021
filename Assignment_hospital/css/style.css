@@ -1,0 +1,63 @@
+:root {
+    --main-font: "Dongle", sans-serif;
+    --icon-back: #1abc9c;
+    --p-color: #999;
+  }
+
+  .hero-section{
+      background :url(https://smilepure.thememove.com/wp-content/uploads/2019/10/h1-slider-bg.png)no-repeat;
+      width: 100%;
+      background-position: center center;
+      background-size: cover;
+      
+  }
+  .menu-icon{
+    
+      font-size: 30px;
+  }
+   .text-center{
+       text-align: center;
+
+  }
+  .margin{
+      margin-top: 14%;
+      text-align: center;
+  }
+  .box{
+    
+    box-shadow: 10px 5px 5px red;
+  }
+  .responsive{
+     width: 100%;
+  }
+  .desk-nav ol li a {
+      text-transform: capitalize;
+      text-decoration:none;
+      font-size: 20px;
+  }
+
+
+  /* -----------------------------------------------services at----- */
+  .backcolor{
+      width: 100%;
+      height: auto;
+  }
+  .custom-width{
+            width:18rem ;
+  }
+  /* ----------------------------------------our clinik----- */
+  .num-width{
+      font-size: 30px;
+      color: #1abc9c;
+  }
+  .img-redies{
+    border-radius: 50%;
+  }
+
+
+  /* -------------------------------------------card width------- */
+
+  .custom-width{
+      width: 20rem;
+  }
+  

@@ -1,0 +1,389 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;500&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,500;1,300;1,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Cormorant Garamond', serif;
+     
+}
+
+.hero-section{ 
+    width:90%;
+    height:700px;
+    background:url(http://www.innovationplans.com/idesign/constex-v2/img/bg1.jpg) no-repeat;
+    background-size:100% 100%;
+    margin-left: 5%;
+  
+} .wrapper{
+    width: 90%;
+    margin-left: 5%;
+} 
+
+.logo{
+    width:120px;
+    height: 30px;
+
+}
+.mobile-nav{
+    width: 100%;
+    height: auto;
+}
+.mobile-nav a{
+
+            float:right;
+            font-size: 25px;
+            margin-top: 10px;
+            color: white;
+            margin-right: 10px;
+}
+
+.desk-nav{
+    display: none;
+}
+
+ .text-center h3{
+    font-size:20px;
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    
+}
+.text-center a{
+    font-size:15px;
+    margin-bottom: 20px;
+    border:1px solid #ffb600;
+    padding: 10px;
+    color: #fff;
+    width: 175px;
+    height: 50px;
+    background-color:#ffb600; ;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.text-center h1{
+    font-size:30px;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+.text-center{
+   text-align: center;
+   text-transform:capitalize;
+   
+    
+}
+.custom-services{
+    /* width: 90%;
+    margin-left: 5%; */
+    text-align: center;
+    font-family: 'Abhaya Libre', serif;
+    
+}
+.custom-services h3{
+    font-size: 25px;
+    font-weight:300;
+    color: #858585;;
+}
+.custom-services h1{
+    font-size: 30px;
+    font-weight: 700px;
+
+}
+.custom-services p{
+    color: #858585;
+    font-weight:50px;
+}
+.custom-services{
+    font-size: 15px;
+    font-weight:100px;
+    text-align: center;
+
+}
+.contain1{
+    /* width:90%; */
+    box-sizing: border-box;
+    border: 1px solid #dae4ee;
+    padding: 20px;
+   /* margin-left: 5%; */
+    
+}
+.custom-services hr{
+    width: 50%;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 25%;
+}
+.contain1{
+    font-size: 15px;
+    font-weight:100px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.contain1 span{
+    font-size:50px;
+    color:#FFB600;
+}
+.contain1 p{
+    color: #858585;
+    font-weight:10px;
+    
+}
+            /* -----why we choose us---- */
+
+
+.custom-containers{
+    margin-left: 5%;
+    width: 90%;
+
+}
+.custom-containers header{
+   font-size: 30px;
+   font-family:'Cormorant Garamond', serif; 
+   font-weight:bolder;
+
+
+}
+
+.icon span{
+    font-size:30px;
+    color:#FFB600;
+     width: 30%;
+     display: flex;
+     justify-content:space-between 
+
+}
+.icon{
+    color: #858585;
+    font-size: 17px;
+    margin-right: 10%;
+    display:flex;
+    margin-top: 20px;
+    
+    
+
+}
+.img-clg{
+    width: 100%;
+    height: 300px;
+
+}
+            /* -----------our project---------- */
+
+     .custom-black{
+    
+        background-size: 100% 100%;
+         /* width: 90%;
+        margin-left: 5%;  */
+        height: auto;
+  background:linear-gradient(rgba(78, 78, 72, 0.6),url(http://www.innovationplans.com/idesign/constex-v2/img/bg.jpg); 
+    }
+    .inline-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .inline-nav ul{
+        list-style: none;
+        display: flex;
+        
+    }
+    .inline-nav ul li{
+        text-transform: capitalize;
+        font-size: 15px;
+        color:white;
+        margin: 5px;
+    } 
+
+    .project{
+        text-align: center;
+        color: white;
+        
+    }
+    .project h1{
+        font-size: 30px;
+        font-weight:bolder ;
+    }
+    .project h2{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .gallry-itam{
+        width: 100%;
+        
+    
+    }
+    .feature-img{
+                width: 100%;
+                height: 300px;
+    }
+    .feature-img h3{
+        font-size: 20px;
+        text-transform: capitalize;
+        color: #777;
+    }
+    .feature-img h1{
+        font-size: 30px;
+        color:#777; 
+        text-transform: capitalize;
+        font-family:'Cormorant Garamond', serif; 
+        font-weight:bolder;
+        margin-bottom: 20px;
+     }
+    .img-blog p{
+        font-size: 17px;
+        color:#777;
+        font-weight: lighter;
+        text-transform: capitalize;
+    }
+    .img-blog span{
+        font-size: 30px;
+        color:#FFB600;
+
+    }
+
+    /* ------contact us------ */
+
+    .contact{
+        background-color: white;
+      width: 90%;
+        margin-left: 5%;
+        height: 700px;
+    
+    }
+
+
+
+    
+
+
+            /* ------desk nav---- */
+ @media (min-width:768px) {
+
+                .mobile-nav{
+                    display: none;
+            }
+                .desk-nav{
+                    display: flex;
+                    width: 100%;
+                    height: auto;
+                    
+                }
+                
+                .logo{
+                   
+                    margin-right: 30%;
+                   
+                    
+                }
+                .desk-nav ul{
+                    display: flex;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 12px;
+                    margin-top: 20%;
+                }
+            
+                .desk-nav ul li{
+                    list-style: none;
+                    
+                    
+                }
+                .desk-nav ul li a{
+                    font-size:18px;
+                    color: white;
+                    font-family: 'Abhaya Libre', serif;
+                    text-decoration: none; 
+                    margin: 6px;
+                    text-transform: uppercase;
+                    
+                }
+                .desk-nav ul li::after{
+                    content: "";
+                    width: 0%;
+                    height: 2px;
+                    background-color: turquoise;
+                    display: flex;
+                    margin: auto;
+                    transition: 0.5s;
+                }
+                .desk-nav ul li:hover:after{
+                    width: 100%;
+                }
+ }
+
+                /* ------------------------------------------ */
+                
+
+                @media (min-width:768px) {
+                    .mobile-nav{
+                        display: none;
+                        
+                    }
+                
+                        
+                    .desk-nav{
+                        display: flex;
+                        width: 20%;
+                        height: auto;
+                        
+                    }
+                    
+                    .logo{
+                        width: 100%;
+                        margin-top: 3%;
+                        margin-left: 7%;
+                        
+                
+                    }
+                    .desk-nav ul{
+                        display: flex;
+                        margin-left: 60%;
+                        margin-top: -4%;
+                    }
+                    
+                    .desk-nav ul li{
+                        list-style: none;  
+                        
+                    }
+                    .desk-nav ul li a{
+                        font-size:18px;
+                        color: white;
+                        font-family: 'Abhaya Libre', serif;
+                        text-decoration: none; 
+                        margin: 6px;
+                        text-transform: uppercase;
+                       
+                    }
+                
+                    .desk-nav ul li::after{
+                        content: "";
+                        width: 0%;
+                        height: 2px;
+                        background-color:var(--hover-color);
+                        display: flex;
+                        margin: auto;
+                        transition: 0.10s;
+                    }
+                    .desk-nav ul li:hover:after{
+                        width: 100%;
+                    }
+                
+                    .text-center{
+                        margin-top: 70px;
+                    }
+                    
+                }
+
+            
+
+            

@@ -1,0 +1,15 @@
+What is css?
+css => cascading style sheet
+
+cascading mhanje eka mage ek jodne
+
+html => tags => attributes
+
+css =>properties => values
+
+kay karaychay => properties
+kasa karaychay => values
+
+Css is cascading style sheet used to style our web page.
+
+style => design

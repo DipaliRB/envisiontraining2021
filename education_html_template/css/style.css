@@ -1,0 +1,641 @@
+
+    
+    @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700&display=swap');
+   
+*{
+    margin:0px;
+    padding: 0px
+}
+
+.desk-nav{
+    display:none;
+}
+
+.mobile-nav{
+    width: 100%;
+    height: 30px;
+    background-color:rgba(0, 0, 0, .4);
+   
+
+}
+.hero-section{
+    background: url(https://www.edgenuity.com/wp-content/uploads/2021/04/is-matrix-hero.jpg) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    
+}
+
+
+.logo{
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.icon{
+    font-size: 25px;
+    color: white;
+    float: right;
+    
+}
+.back-img h1{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+
+    
+}
+.back-img p{
+    
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.back-img h2{
+    color: white;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+
+}
+.back-img a{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    color:white;
+    background-color: #f78d25;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+.img
+{
+    width: 100%;
+    height:100px;
+  
+}   
+
+.border1{
+    background-color: #f79226;
+    height: 10px;
+    width: 100%;
+    
+}
+  
+     
+.school-1{
+    background: url(https://www.edgenuity.com/wp-content/uploads/2016/12/edgenuity-homepage-elementary-solutions.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top:-5px
+}
+.school-2{
+    background: url(https://www.edgenuity.com/wp/common/images/white-and-black-male-students-young-high-school-walking-together.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top:-5px
+    
+}
+
+.border-2{
+    background-color:#4c9c8d;;
+    height: 10px;
+    width: 100%;
+}
+.school-3{
+    background: url(https://www.edgenuity.com/wp-content/uploads/2016/12/edgenuity-homepage-high-school-solutions.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top:-5px
+}
+
+.border-3{
+    background-color:#47a5c9;
+    height: 10px;
+    width: 100%;
+    
+}
+.school-img h1{
+    color:white;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    
+
+}
+.school-img h3{
+    color:white;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 17px;
+    font-family: 'Abhaya Libre', serif;
+
+}
+.support-img{
+    background-color:#e1e8ed;
+}
+.logo-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    
+}
+.support-img h2{
+    color: #6e7075;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    
+
+}
+.support-img h3{
+    color: #6e7075;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 17px;
+    font-family: 'Abhaya Libre', serif;
+}
+.support-img p{
+    color: #6e7075;
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 14px;
+    font-family: 'Abhaya Libre', serif;
+}
+.change-color {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    color:white;
+    background-color: #f78d25;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.change-color1{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    color:white;
+    background-color:#47a5c9;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+
+.change-color2{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    color:white;
+    background-color:#36bba4;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.back-blue{
+    width: 100%;
+    height: 100px;
+    background-color:#2b2d84;
+}
+.back-blue p{
+    color: white;
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 14px;
+    font-family: 'Abhaya Libre', serif;
+
+}
+.back-blue button{
+    width: 150px;
+    height: 30px;
+    background-color: #3899bf;
+    border: 1px solid #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-left: 30%;
+
+}
+.technology h2 {
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    color:#6e7075;
+}
+.technology p{
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 15px;
+    font-family: 'Abhaya Libre', serif;
+    color:#6e7075;
+}
+.technology a{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    color:white;
+    background-color:#2b2d84;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+/* .svg{
+    color: white;
+    background: #47a5c9;
+} */
+
+
+.custom-video{
+    background-color: #4c9c8d;
+    width: 100%;
+    height:auto;
+}
+
+.custom-center{
+            width: 100%;
+            position: relative;
+            bottom: -50px;
+            
+}
+.custom-video h1{
+    color:white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+}
+.custom-video h2{
+    color:white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    
+    
+}
+.custom-video p{
+    color:white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 15px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.custom-video button{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    color:white;
+    background-color:#2b2d84;
+    font-family: 'Abhaya Libre', serif;
+    text-decoration: none;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.video1{
+    background: url(https://f1.media.brightcove.com/8/2827488281001/2827488281001_4234388917001_MVI-1489r.jpg?pubId=2827488281001&videoId=4224320007001) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+.video2{
+    background: url(https://f1.media.brightcove.com/8/2827488281001/2827488281001_4934709743001_3152949966001-vs.jpg?pubId=2827488281001&videoId=3152949966001) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+.video3{
+    background: url(https://f1.media.brightcove.com/8/2827488281001/2827488281001_5273469083001_4109782822001-vs.jpg?pubId=2827488281001&videoId=4109782822001) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+
+
+            /* -----foter---- */
+
+.back-black{
+        background-color:#3b3a3c;
+        width: 100%;
+        height: auto;
+
+}
+.map{
+    width: 100%;
+    height: 200px;
+}
+.contact span{
+    color:white;
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 14px;
+    font-family: 'Abhaya Libre', serif;
+
+}
+.back-black ul li{
+    color:white;
+    text-align:left;
+    text-transform:capitalize;
+    font-size: 14px;
+    font-family: 'Abhaya Libre', serif;
+    list-style: none;
+
+}
+.back-black h1{
+    color:white;
+    text-align:left;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+    border-bottom:2px solid #4c9c8d;
+    width: 50%;
+    
+
+}
+        /* ---------tab view-------- */
+
+        @media (min-width:768px){
+            .mobile-nav{
+                display: none;
+            }
+
+            
+            .desk-nav{
+                display: flex;
+                width: 100%;
+                height: 60px;
+                background-color: rgba(0, 0, 0, .4); 
+                align-items: center; 
+                justify-content: space-between;  
+
+
+        }
+        .desk-nav ul{
+            display: flex;
+            list-style-type: none;
+            width: 100%;
+
+            
+        }
+        .desk-nav ul li a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: 'Abhaya Libre', serif;
+            font-size: 13px;
+            color: white;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 6px;
+        }
+           .desk-nav strong{
+               width: 20%;
+               color: white;
+               font-size: 20px;
+           } 
+            
+            .back-img{
+            
+                     margin-left: 1%;
+                    margin-right: 1%;
+                    margin: 100px;
+            }
+            .back-img h1{
+                font-size: 30px;
+            }
+            .back-img a{
+             margin-left: 40%;
+            }
+            .img{
+                height: 150px;
+            }
+            .school-img{
+                display: flex;
+            
+            }
+            .school-1{
+                    height: 200px;
+            }
+            .school-2{
+                height: 200px;
+            }
+            .school-3{
+                height: 200px;
+            }
+            .logo-img{
+                width: 20%;
+                height: auto;
+                margin-left: 42%;
+                font-size: 30%;
+            }
+            .support-img h2{
+                font-size: 25px;
+            }
+            .change-color{
+                margin-left: 38%;
+            }
+            .change-color1{
+                margin-left: 38%;
+            }
+            .change-color2{
+                margin-left: 38%;
+            }
+            .back-blue button{
+                margin-left: 42%;
+                margin-top: 20px;
+            }
+            .back-blue p{
+            
+                font-size: 17px;
+            }
+            .technology a{
+                margin-left: 42%;
+            }
+            .custom-video h1{
+                font-size: 25px;
+            }
+           
+            .video-tab{
+                width: 35%;
+                margin: 5%;
+                display:inline-block;
+            }
+            .video-tab h2 {            
+                font-size: 15px;
+            }
+            .video-tab p{            
+                font-size: 12px;
+            }
+            .video-tab button{
+                margin-left: 7%;
+                width: 100px;
+            }
+            .back-black h2{
+                width:30%;
+            }
+             .map{
+                width: 100%;
+        
+            }
+            .contact{
+                width: 30%;
+                float: right;
+        
+            }
+            .company{
+                width:50%;
+                
+            }
+            .resources{
+                width: 50%;
+            }
+            .product{
+                width: 50%;
+            }
+            .NAVIGATE{
+                width: 50%;
+                margin-top: 10px;
+            }
+           
+           .custom-inline{
+               display: flex;
+               width: 100%;
+               flex-wrap: wrap;
+           }
+           .custom-inline2{
+                    display: flex;
+           }
+        }
+
+        @media (min-width:992px){
+
+            .mobile-nav{
+                display: none;
+
+            }
+            .desk-nav{
+                display: flex;
+                width: 100%;
+                height: 60px;
+                background-color: rgba(0, 0, 0, .4); 
+                align-items: center; 
+                justify-content: space-between;  
+
+
+        }
+        .desk-nav ul{
+            display: flex;
+            list-style-type: none;
+            width: 100%;
+
+            
+        }
+        .desk-nav ul li a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: 'Abhaya Libre', serif;
+            font-size: 13px;
+            color: white;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 6px;
+        }
+           .desk-nav strong{
+               width: 50%;
+               color: white;
+               font-size: 20px;
+           } 
+           .video-tab{
+            width: 25%;
+            margin: 4%;
+            display:inline-block;   
+           }
+           .NAVIGATE{
+             
+                width: 50%;
+                margin-top: 10px;
+           }
+           
+
+    
+        
+       
+
+    
+    }

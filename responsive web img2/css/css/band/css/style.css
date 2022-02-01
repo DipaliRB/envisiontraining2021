@@ -1,0 +1,199 @@
+/* https://www.w3schools.com/w3images/ny.jpg */
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Raleway', sans-serif;
+}
+.nav{
+    display:none;
+}
+.hero-section{
+    width:100%;
+    height:400px;
+    background:url(https://www.w3schools.com/w3images/ny.jpg) no-repeat;
+    background-size:cover;
+    color:#fff;
+    text-align:center;
+}
+.hero-section h3{
+    /* margin-top:350px; */
+    padding-top:300px;
+    /* position:relative;
+    top:350px; */
+}
+.center{
+    width:90%;
+    margin:0 auto;
+}
+.center p{
+    text-align:justify;
+}
+.center span{
+    display:block;
+    padding:15px 0px 30px 0px;
+}
+.center h1{
+    padding-top:30px;
+    font-weight:400;
+    text-transform:uppercase;
+}
+.center h1,.center span{
+    text-align:center;
+}
+.card{
+    width:100%;
+    margin-top:20px;
+}
+.card img{
+    width:100%;
+    height:320px;
+}
+.card p{
+    text-align: center;
+    padding-bottom:10px;
+}
+
+@media (min-width:768px){
+    .hero-section h3{
+        padding-top:330px;
+    }
+    .hero-section p{
+        margin-top:10px;
+    }
+    .center{
+        width:70%;
+    }
+    .card{
+        display:inline-block;
+        width:49%;
+    }
+    .margin{
+        margin-left:2%;
+    }
+}
+@media (min-width:992px){
+    .nav{
+        display:block;
+        width:100%;
+        height:50px;
+        background:#000;
+    }
+    .nav ul{
+        list-style-type:none;
+    }
+    .nav ul li{
+        display:inline-block;
+        margin:0% 2% 0% 2%;
+        padding-top:15px;
+    }
+    .nav ul li a{
+        color:#fff;
+        text-decoration:none;
+        text-transform: uppercase;
+    }
+    .search{
+        position:relative;
+        left:47%;
+    }
+    .center{
+        width:60%;
+    }
+    .card{
+        width:30%;
+    }
+    .card img{
+        height:200px;
+    }
+    .margin{
+        margin:0px 5% 0px 5%;
+    }
+}
+@media (min-width:1200px){
+    .search{
+        left:55%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.hero-section{
+    width:100%;
+    height:800px;
+    background:url(https://www.w3schools.com/w3images/ny.jpg) no-repeat;
+    background-size:cover;
+    text-align:center;
+    color:#fff;
+}
+.hero-section h3{
+    padding-top:680px;
+    margin-bottom:20px;
+}
+.the-band{
+    width:100%;
+}
+.center{
+    width:60%;
+    margin:0 auto;
+}
+.center h1{
+    text-align:center;
+    padding-top:40px;
+    padding-bottom:30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight:400;
+}
+.center span{
+    text-align:center;
+    display:block;
+    font-style:italic;
+    color:rgba(0,0,0,0.5);
+}
+.center p{
+    margin-top:20px;
+    text-align:justify;
+    line-height:25px;
+    font-size:14px;
+}
+.card{
+    width:30%;
+    display:inline-block;
+   
+}
+.card p{
+    text-align:center;
+}
+.card img{
+    width:100%;
+    height:300px;
+}
+.margin{
+    margin:0px 5% 0px 5%;
+} */

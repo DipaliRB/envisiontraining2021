@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+.desk-nav{
+    display:none;
+}
+.hero-section{
+    width:100%;
+    height:100vh;
+    background:url(http://duruthemes.com/demo/html/bauen/fullscreen-multipage-dark/img/slider/1.jpg) no-repeat;
+    background-size:100% 100%;
+}
+.mobile-nav{
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.logo,.icon{
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+}
+.logo{
+    font-size:25px;
+    text-decoration:none;
+    margin-left:10px;
+}
+.icon{
+    margin-right:10px;
+    font-size:20px;
+}.header-text{
+    margin-top:40%;
+    margin-left:5%;
+}
+.header-text h1{
+    font-family: 'Oswald', sans-serif;
+    color:#fff;
+    font-size:35px;
+    letter-spacing:4px;
+}
+.header-text p{
+    font-family: 'Didact Gothic', sans-serif;
+    color:#fff;
+    margin:20px 0px;
+}
+.header-text a{
+    display:flex;
+    width:150px;
+    height:50px;
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border:1px solid #fff;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    text-transform: uppercase;
+}
+.about{
+    width:100%;
+    background:#272727;
+    padding-top:50px;
+}
+.about h1{
+    font-size:34px;
+    color:#fff;
+    font-family: 'oswald';
+    text-transform: uppercase;
+    font-weight:500;
+    letter-spacing:8px;
+}
+.about p{
+    color:#999;
+    font-family: 'Didact Gothic', sans-serif;
+    line-height:30px;
+}
+.custom-color{
+    color:#b19777;
+}
+.about-image{
+    margin-top:50px;
+}
+.about-image figure img{
+    width:100%;
+    height:300px;
+}
+.about-image figure{
+    position:relative;
+    display:flex;
+}
+.canada{
+    width:60%;
+    height:60px;
+    background:#323232;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+    font-family: 'oswald';
+    font-size:26px;
+    text-transform: uppercase;
+    letter-spacing:6px;
+    position:absolute;
+    top:0px;
+    left:35%;
+    top:90%;
+}
+.projects{
+    width:100%;
+    background:#272727;
+    padding-top:50px;
+}
+.projects h1{
+    color:#fff;
+    font-size:30px;
+    font-weight:500;
+    font-family:'oswald';
+    text-transform:uppercase;
+    letter-spacing:6px;
+    margin-bottom:30px;
+}
+.projects figure img{
+    width:100%;
+}
+.projects figure{
+    position:relative;
+    margin-top:30px;
+}
+.projects figure figcaption{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:flex-end;
+    flex-direction:column;
+    align-items:center;
+    color:#fff;
+    text-transform:uppercase;
+}
+.projects figure figcaption h4{
+    margin-bottom:40px;
+    font-family:'oswald';
+    font-size:30px;
+    letter-spacing:6px;
+    font-weight:500;
+}
+.projects figure figcaption span{
+    font-family:'oswald';
+    letter-spacing:6px;
+    font-size:16px;
+    margin-bottom:10px;
+    color:#b19777;
+}
+
+@media (min-width:768px){
+    .d-block{
+        display:block;
+    }
+}
+@media (min-width:992px){
+    .desk-nav{
+        display:flex;
+        height:50px;
+        width:100%;
+    }
+    .mobile-nav{display:none;}
+    .custom-width{
+        width:80%;
+        height:100%;
+        display:flex;
+        margin:0 auto;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+    .logo{
+        width:40%;
+    }
+    .desk-nav ul{
+        display:flex;
+        list-style-type:none;
+        width:60%;
+        justify-content:space-between;
+    }
+    .desk-nav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+    font-family: 'oswald', sans-serif;
+    letter-spacing:1px;
+    font-size:18px;
+        color:#fff;
+    }
+    .header-text{
+        width:80%;
+        margin:0 auto;
+        margin-top:15%;
+    }
+    .about{
+        display:flex;
+        justify-content:space-evenly;
+    }
+    .about-text{
+        width:40%;
+    }
+    .about-text p{
+        margin-top:20px;
+    }
+    .about-image{
+        width:40%;
+    }
+    .about-image figure img{
+        height:340px;
+    }
+    .d-flex{
+        width:90%;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .d-flex figure{
+        width:40%;
+    }
+    .projects header{
+        margin-left:10%;
+    }
+}
+
+.custom-services{
+    width:100%;
+    background:#272727;
+    padding-top:50px;
+}
+.custom-services header h1{
+    color: white;
+    text-transform: uppercase;
+    font-family:'oswald';
+    font-size:30px;
+    letter-spacing:6px;
+}
+
+.custom-services header span{
+    color:#b19777;
+    text-transform: uppercase;
+    font-family:'oswald';
+    font-size:30px;
+    letter-spacing:6px;
+
+}
+
+.services figure img{
+width:20%
+}
+.services figure h1{
+color: white;
+font-size: 25px;
+font-weight:5px;
+font-family: 'Didact Gothic', sans-serif;
+letter-spacing: 5px;
+}
+.services figure p{
+color:#999;
+font-size: 15px;
+font-family: 'Didact Gothic', sans-serif;
+letter-spacing: 2px;
+}
+
+
+        /* news */
+.custom-news{
+width:100%;
+background:#272727;
+padding-top:50px;
+}
+.custom-news header h1{
+color: white;
+font-size: 30px;
+font-weight:5px;
+font-family: 'Didact Gothic', sans-serif;
+letter-spacing: 5px;
+}
+.custom-news header span{
+color:#b19777;
+font-size: 30px;
+font-family: 'Didact Gothic', sans-serif;
+letter-spacing: 2px;
+}
+.custom-news img{
+width: 100%;
+}
+.news figure figcaption{
+color: white;
+}
+.news figure figcaption h3{
+color:#b19777;  
+text-transform: capitalize;
+}
+
+.center{
+    
+    background-color: #323232 !important;
+    border: 1px solid #323232;
+    width: 70%;
+    position: relative;
+    bottom: 39px;
+    margin-left: 20%;
+    padding: 10px 5px 10px 5px;
+}
+
+
+@media (min-width:768px){
+
+    .services{
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+
+    .news{
+        display: flex;
+        
+        
+    }
+    .custom-news img{
+        width: 90%;
+        display: flex;
+        justify-content:space-evenly;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width:992px){
+    .services{
+        width:90%;
+            margin:0 auto;
+            display:flex;
+            justify-content: space-evenly;
+
+        
+    }
+    .services figure figcaption{
+        margin-top: 20px;
+    } 
+    .services figure figcaption p{
+        margin-top: 15px;
+    }
+
+    .custom-services header{
+
+            margin-left: 5%;
+            margin-bottom: 2%;
+
+    }
+    .news{
+        width: 92%;
+        margin:0 auto;
+        display:flex;
+        justify-content: space-evenly;
+
+    }
+    .custom-news header{
+                margin-left: 5%;
+            margin-bottom: 2%;
+
+    }
+    .services p{
+        width:80%;
+    }
+}
+/* video */
+.back-color{
+    background-color:#323232; 
+    width: 100%;
+    height: auto;
+}
+
+
+.img {
+        background:url(http://duruthemes.com/demo/html/bauen/fullscreen-multipage-dark/img/banner2.jpg) no-repeat;
+         background-size:100% 100%;
+        width: 900px;
+         height: 300px;
+
+  
+}
+.icon-2{
+    font-size: 50px;
+}
+.img{
+    width: 100%;
+}
+.img h4{
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: -0px;
+
+}
+
+.box{
+    width: 60%;
+    float:right;
+    background-color: #272727;
+    border: 1px;
+    
+}
+
+
+
+
+    
+.box h4{
+    font-size: 13px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 5px;
+    margin-left:2%;
+    margin-bottom: 10%;
+    
+
+}
+.box p{
+    
+    font-size: 13px;
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    letter-spacing: 1px;
+}
+            
+        .img-1{
+            width: 30%;
+        }
+    .men-img h6{
+        color: #b19777;
+        font-family: 'Didact Gothic', sans-serif;
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+    .men-img span{
+        color: white;
+        font-family: 'Didact Gothic', sans-serif;
+        font-size: 13px;
+        text-transform: capitalize;
+
+    }
+   .icon-size{
+       width: 20px;
+       
+   }
+   .inline-1 h6{
+
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 13px;
+    text-transform: capitalize;
+
+
+   }
+
+
+   .inline-1 p{
+
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 10px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+   }
+   .footer p{
+    color: white;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 10px;
+    text-transform: capitalize;
+
+   }
+   .footer a{
+       display: flex;
+       align-items: center;
+   }
+
+

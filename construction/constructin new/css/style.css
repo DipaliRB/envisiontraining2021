@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;500&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,500;1,300;1,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family: 'Cormorant Garamond', serif;
+     
+}
+:root{
+    --nav-color:white;
+    --hover-color:#FFB600;
+    --font-size:2em;
+            
+            
+}
+.hero-section{
+    width: 100%;
+    height:700px;
+    background:url(http://www.innovationplans.com/idesign/constex-v2/img/bg1.jpg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.desk-nav{
+    display: none;
+}
+.mobile-nav{
+        display:flex;
+            width: 90%;
+            height: auto; 
+            justify-content: space-between; 
+}
+.logo{
+    width: 40%;
+    height: auto;
+}
+
+.mobile-nav a{
+    float: right;
+    font-size: 25px;
+    color: white;
+    margin-top: 5px;
+     
+}
+.text-center{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-transform: uppercase;
+    margin-top: 30px;
+
+
+}
+.text-center h1{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.text-center a{
+    text-decoration: none;
+    
+    border: 1px solid burlywood;
+    padding: 7px;
+    background-color: white;
+}
+.text-center a:hover{
+    background-color:var(--hover-color);
+}
+
+.main-custom{
+    text-align: center;
+
+}
+ .main-custom h1{ 
+    color: #212529;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin: 5px;
+}
+     h3{
+    color: #212529;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.main-custom p{
+    color: #212529;
+    font-size: 17px;
+}
+
+.contain1 h2 {
+            color: #212529;
+            text-transform: uppercase;
+            font-size: 19px;
+
+}
+.contain1 p{
+
+    font-size: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.contain1 span{
+    color: var(--hover-color);
+    font-size: var(--font-size);
+}
+.contain1{
+    
+    box-sizing: border-box;
+    border: 1px solid #dae4ee;
+    padding: 20px;
+    width: 90%;
+    margin-left: 5%;
+}
+.contain1:hover{
+    background-color:pink;
+
+}
+.main-contain h1{
+        text-align: center;
+        color: #212529;
+        text-transform: uppercase;
+        font-size: 20px;
+
+}
+.icon span{
+    color: var(--hover-color);
+    font-size: var(--font-size);
+    margin-left: 3%;
+}
+.icon p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.icon{
+    margin-top: 4px;
+}
+.img-clg{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+        /* ------our prject------ */
+         .project{
+            background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,145,232,1) 7%, rgba(86,255,0,0.7231267507002801) 100%),url(http://www.innovationplans.com/idesign/constex-v2/img/bg.jpg) no-repeat;
+            width: 100%;
+            height: auto;
+        } 
+
+        .header h1{
+            text-align: center;
+        color:white;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight:bolder;
+          letter-spacing: 2px;
+            
+
+        }
+        .header h3{
+            text-align: center;
+            color:white;
+            text-transform: uppercase;
+            font-size: 20px;
+            
+              letter-spacing: 2px;
+        }
+        .header h2{
+        
+            color:white;
+            text-transform:capitalize;
+            font-size: 16px;
+            margin-left: 5%;
+            margin-right: 5%;
+    
+             
+        }
+        .inline-nav{
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        .inline-nav ul li{
+            display: flex;
+            text-decoration:none;
+            text-transform:uppercase;
+            margin-left: 5px;
+            color:white;
+            font-weight: bolder;
+
+
+        }
+        .inline-nav ul{
+            display:flex;
+            justify-content: center;
+            align-items: center; 
+            
+        }
+        .inline-nav ul li:hover{
+            background-color: var(--hover-color);
+            border-radius: 10px;
+            border: 3px solid #BADA55;
+            
+
+        }
+        
+        .img-contain{
+            width: 100%;
+            height: auto;
+        
+        }
+        .gallry-itam{
+            width: 100%;
+            height: 300px;
+        }
+                  /* ------our feature------ */
+
+         .feature h3 {
+            text-align: center;
+
+        }
+        .feature h1{
+            text-align: center;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        .feature p{
+            text-align: center;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .design-image{
+            width: 100%;
+            height: auto;
+        }
+
+        .design span{
+                    color:var(--hover-color);
+                    font-size: var(--font-size);
+                    margin-left: 5px;
+                    margin-top: 5px;
+        }
+        .design h2{
+            text-transform:capitalize;
+            margin-left: 10px;
+            margin-top: 5px;
+            font-size: 25px;
+
+        }
+        .design{
+                    width: 100%;
+                    background-color: #fff;
+                    color: black;
+                    margin-bottom: 4px;
+                    padding-bottom: 4
+                        }
+
+        /* -------------------team member---------------- */
+    header{
+        text-align: center;
+    }
+        
+    .team{
+        width: 100%;
+        height: auto;
+    
+        margin-top: 30px;
+    }
+    .team h3{
+        font-size: 15px;
+    }
+    .team h1{
+        font-size: 30px;
+    }
+    .team-width{
+        width: 90%;
+        height: 200px;
+    }
+
+    .info1{
+        position:relative;
+        top: -50px;
+        left: -3;
+        width: 70%;
+        padding: 30px;
+        /* text-align: center; */
+        background-color: #FFB600;
+        color: #fff;
+        
+    }
+    .info{
+        margin-left: 10%;
+    }
+    .info1:hover{
+        background-color:#212529;
+    }
+
+    .cotact{
+        width: 100%;
+        height: auto;
+    }
+    .form h3{
+        text-align: center;
+        font-size: 16px;
+        text-transform: capitalize;
+
+    }
+    
+    .form h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 25px;
+        
+    }
+    .form p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .custom-form{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+     .form input{
+         width: 80%;
+         padding: 20px;
+         margin-bottom: 10px;
+        
+         
+     }
+.custom-form button{
+    width: 40%;
+
+    padding:10px;
+    background-color: var(--hover-color);
+
+}
+.address{
+    width: 50%;
+    height: auto;
+}
+.address h4{
+    font-size: 22px;
+    text-transform: uppercase;
+
+
+}
+.address address{
+        font-size: 17px;
+        
+}
+.address hr{
+    margin-bottom: 20px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+/* ---------tab view--------- */
+@media (min-width:768px){
+    .mobile-nav{
+        display: flex;
+
+    }
+    .logo{
+        width: 30%;
+    }
+    .mobile-nav{
+        align-items: baseline;
+    }
+    .mobile-nav a{
+        font-size: 30px;
+    }
+    .text-center h3{
+        color: white;
+    }
+    .custom-flex{
+        display: flex;
+        margin-top:20px;
+        margin-right: 48px;
+    }
+    .contain1{
+        
+        width:35%;
+    }
+    .contain1 p{
+                text-align: justify;
+    }
+
+
+    .main-contain{
+        margin-top: 20px;
+    }
+    .icon p{
+        font-size: 18px;
+    }
+    .project{
+        margin-top: 20px;
+    }
+    .header h3{
+        font-size: 16px;
+        margin-bottom: 8px;
+    
+    }
+    .header h1{
+        margin-bottom: 8px;
+    }
+    .header h2{
+        margin-bottom: 20PX;
+    }
+    .design-image{
+        margin-bottom: 20px;
+    }
+    .design h2{
+        margin-left: 20px;
+    }
+    .design span{
+        font-size: 3rem;
+        margin-left: 20px;
+    }
+    
+/* --------------tab view feature------------ */
+    .feature{
+        margin-top: 30px;
+    }
+    .feature p{
+        text-align: center;
+        margin-left: 11px;
+    }
+    
+
+/* -----------------image gallry--------------- */
+        .gallry-itam{
+            width:43%;
+            height: 200px;
+            margin-bottom: 10px;
+            
+            
+        }
+        .gallry-flex{
+                display: flex;
+                justify-content:space-evenly;
+        }
+        .gallry-flex1{
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .gallry-flex2{
+            display: flex;
+                justify-content:space-evenly;
+        }
+        .gallry-flex3{
+            display: flex;
+                justify-content:space-evenly;
+        }
+        
+        .team{
+            margin-top: 4px;
+        
+        }
+        .parent-info{
+            text-align: center;
+        }
+        
+        .team-width{
+            width: 90%;
+        }
+        .info{
+            width: 50%;
+            display:inline-block;
+        }
+        .info1{
+            width: 75%;
+            margin-left: 20px;
+        
+        }
+       
+        .custom-form button{
+            width: 19%;
+            margin-left: 430px;
+        }
+        
+        .address{
+            width: 100%;
+            display: flex;
+            justify-content:center;
+        }
+    
+        .part1{
+            width: 40%;
+            
+        }
+        .part2{
+            width: 40%;
+    
+        }
+        .address hr{
+            display:none;
+        }
+    }
+
+
+
+
+
+
+@media (min-width:992px) {
+    .mobile-nav{
+        display: none;
+        
+    }
+
+        
+    .desk-nav{
+        display: flex;
+        width: 20%;
+        height: auto;
+        
+    }
+    
+    .logo{
+        width: 29%;
+        margin-top: 3%;
+        margin-left: 7%;
+        
+
+    }
+    .desk-nav ul{
+        display: flex;
+        margin-left: 70%;
+        margin-top: -4%;
+    }
+    
+    .desk-nav ul li{
+        list-style: none;  
+        
+    }
+    .desk-nav ul li a{
+        font-size:18px;
+        color: white;
+        font-family: 'Abhaya Libre', serif;
+        text-decoration: none; 
+        margin: 6px;
+        text-transform: uppercase;
+       
+    }
+
+    .desk-nav ul li::after{
+        content: "";
+        width: 0%;
+        height: 2px;
+        background-color:var(--hover-color);
+        display: flex;
+        margin: auto;
+        transition: 0.10s;
+    }
+    .desk-nav ul li:hover:after{
+        width: 100%;
+    }
+
+    .text-center{
+        margin-top: 70px;
+    }
+    .custom-containers{
+        width: 100%;
+        height: auto;
+        display:flex;
+        justify-content:center;
+    }
+    .main-contain{
+        width: 50%;
+    }
+    .img{
+        width: 50%;
+    }
+    .img-clg{
+        width: 100%;
+        height: auto;
+    }
+    .img-contain{
+        
+        width: 100%;
+        
+    }
+    
+
+    .design-parent{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .design{
+        width:30%;
+    }
+    .design-image{
+        width: 100%;
+    }
+    .feature p{
+        text-align:justify;
+    }
+    
+
+
+
+    .parent-info{
+        width: 100%;
+        display: flex;
+    }
+    figure{
+        width: 30%;
+    }
+    .info{
+        width: 100%;
+    }
+    .info1{
+        margin-left: 0px;
+        width: 70%;
+        padding: -25px;
+    }
+    .team{
+        text-align:left;
+    }
+    .custom-form{
+        margin-top: 10px;
+    }
+    header{
+        text-align:center;
+    }
+
+   
+    .parent-gallry{
+            width: 100%;
+            display: flex;
+    }
+    .gallry-flex,.gallry-flex1{
+        width: 100%;
+    }
+    .gallry-itam{
+        width: 48%;
+    }
+
+    .parent-gallry1{
+        width: 100%;
+        display: flex;
+}
+.gallry-flex2,.gallry-flex3{
+    width: 100%;
+}
+.gallry-itam{
+    width: 48%;
+}
+    
+    
+}
