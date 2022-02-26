@@ -182,7 +182,7 @@
          /* width: 90%;
         margin-left: 5%;  */
         height: auto;
-  background:linear-gradient(rgba(78, 78, 72, 0.6),url(http://www.innovationplans.com/idesign/constex-v2/img/bg.jpg); 
+  background:linear-gradient(rgba(78, 78, 72, 0.6),url(http://www.innovationplans.com/idesign/constex-v2/img/bg.jpg)); 
     }
     .inline-nav{
         display: flex;
